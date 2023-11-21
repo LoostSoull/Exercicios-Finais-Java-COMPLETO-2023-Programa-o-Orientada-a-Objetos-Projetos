@@ -1,0 +1,33 @@
+package br.com.exercicios;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import br.com.exercicios.model.entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc =  new Scanner (System.in);
+		
+		List<Product> produtolist = new ArrayList<>();
+		
+		
+		System.out.println("entre com o caminho do arquivo: ");
+		String caminhoArquivo = sc.nextLine();
+		
+		File buscaArquivo = new File(caminhoArquivo);
+		String caminhoAbsoluto = buscaArquivo.getParent() ;
+		boolean sucesso = new File(caminhoArquivo + "\\out").mkdir();
+		System.out.println("teste" + sucesso);
+		
+		sc.close();
+
+	}
+
+}
