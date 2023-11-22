@@ -17,3 +17,8 @@
 - porem ao fim, queremos saber qual o total de alunos matriculados, sem repetições, por conta disso utilizamos o hashset
 - intuido desse programa é mostrar quantos alunos o professor tem matriculado em cada turma, porem excluindo o mesmo aluno em cursos diferentes, pois estamos contabilizando alunos e nao a quantidade de matriculas.
 
+### Exercicio de fixação com Map
+
+- Esse exercicio consistem em analisar uma lista de candidatos que receberam votos
+- Voce vai consumir um arquivo digitando seu caminho, esse arquivo precisa ter o nome e quantidade de votos,separados por uma virgula,exemplo : lucas,10
+- o programa vai separar os valores , um candidato tem mais de um voto,entao vao ser armazenados em um map e repassados para uma lista,armazenando somente uma chave,por nao aceitar repetições e calculando os votos do valor
