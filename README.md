@@ -22,3 +22,8 @@
 - Esse exercicio consistem em analisar uma lista de candidatos que receberam votos
 - Voce vai consumir um arquivo digitando seu caminho, esse arquivo precisa ter o nome e quantidade de votos,separados por uma virgula,exemplo : lucas,10
 - o programa vai separar os valores , um candidato tem mais de um voto,entao vao ser armazenados em um map e repassados para uma lista,armazenando somente uma chave,por nao aceitar repetições e calculando os votos do valor
+
+### Exercicio de fixação final
+-  Precisa ser  criado um arquivo de texto  com alguns dados de funcionarios, esse arquivo precisa conter nome,email e salario, separados por virgula e o salario com ponto. Exemplo: lucas,lucas@lucas.com,2000.00
+-  voce vai precisar digitar o caminho onde esse arquivo se encontra na aplicação assim que executado
+-  ele vai criar um objeto com esses 3 atributos, filtrar quem tem o salario acima do que foi digitado e retornar o email do colaborador.
